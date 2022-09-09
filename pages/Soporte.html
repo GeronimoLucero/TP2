@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <script src="https://kit.fontawesome.com/0f91e5c846.js" crossorigin="anonymous"></script>
-    <title> DITTO · Contacto </title>
+    <title> DITTO · Soporte </title>
 </head>
+<body class="BodySoporte">
 
-<a href="../index.html"></a>
-<body class="bodyContacto">
-     
     <header>
         <h2 class="logo">DITTO</h2>
         <input type="checkbox" id="check">
@@ -30,17 +28,32 @@
          </nav>
     </header>
 
+     <div>
+         <h3>
+         <p class="soporte">En DiTTo tenes un soporte que resolvera todas tus dudas</p>
+         </h3>
+      </div>
 
-     <form>
-        <h2>Contacto</h2>
-        <input type="text" name="Nombre" placeholder="Nombre">
-        <input type="text" name="Correo" placeholder="Correo">
-        <input type="text" name="Telefono" placeholder="Telefono">
-        <textarea name="mensaje" placeholder="Escriba aqui su mensaje" ></textarea>
-        <input type="button" value="ENVIAR" id="boton">
-    </form>
+     <!--FORMULARIO-->
 
- </section>
+      <div class="formulario">
+        <form action="/my-handling-form-page" method="post">
+          <ul>
+           <li>
+             <label for="mail">Correo electrónico:</label>
+             <input type="email" id="mail" name="user_mail">
+             </li>
+             <li>
+             <label for="msg">Mensaje:</label>
+             <textarea id="msg" name="user_message"></textarea>
+             <input type="button" value="ENVIAR" id="boton">
+           </li>
+          </ul>
+          </form>
+        </div>
+        </section>
+
+
               <section id="icono">
               <div id="contenido-icono">
               <H1 class="ditto">DITTO MUSIC</H1>
@@ -57,16 +70,14 @@
                 <i class="fa-brands fa-facebook"></i>
               </div>
            </div>
-     </section>
 
-     <footer>
+           </section>
+
+       <footer>
         <div>
             © Ditto Music 2022 ~ Derechos reservados.
         </div>
      </footer>
 
-   
-
-    
-</body> 
+</body>
 </html>
